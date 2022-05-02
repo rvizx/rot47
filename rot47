@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Title  : ROT47 Substituion Cipher
+# Author : Ravindu Wickramasinghe ( @rvizx9 )
+
+if [ "$#" -gt 1 ]; then
+	cat "$@" | tr '!-~' 'P-~!-O';
+elif [ "$#" -eq 1 ]; then
+	exec tr '!-~' 'P-~!-O' <"$1";
+else
+	exec tr '!-~' 'P-~!-O';
+fi;
