@@ -2,8 +2,6 @@
 
 ROT47 Substitution Cipher for Linux
 
-![alt text](https://github.com/rvizx/rot47/blob/main/img.gif?raw=true)
-
 ```
 git clone https://github.com/rvizx/rot47
 chmod +x rot47/rot47
